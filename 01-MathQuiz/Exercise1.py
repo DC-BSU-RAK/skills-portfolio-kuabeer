@@ -319,7 +319,7 @@ answer_entry = Entry(frame4,
                       bg="#3b7c76",
                       width=20)
 answer_entry.place(relx=0.5, rely=0.55, anchor=CENTER)
-answer_entry.bind('<Return>', lambda event: check_answer())  # Enter key support
+answer_entry.bind('<Return>', lambda event: check_answer())  
 
 back3 = Button(frame4,
               text="Quit Quiz",
